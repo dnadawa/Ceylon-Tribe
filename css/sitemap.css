@@ -1,0 +1,54 @@
+html, body{
+    margin: 0;
+    background-color: #20BA9C;
+    text-align: center;
+    font-family: "Google Sans", sans-serif;
+}
+
+h1{
+    letter-spacing: 3px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
+svg{
+    background-color: #EBF0F4;
+    border-radius: 30px;
+    border: 5px white solid;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0.8,0.8);
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+rect{
+    fill: #00816A;
+    transition: all 200ms ease;
+    stroke: #005445;
+    stroke-width: 5px;
+    cursor: pointer;
+}
+
+rect:hover{
+    fill: #20BA9C;
+}
+
+text{
+    font-size: 40px;
+    font-family: "Google Sans", sans-serif;
+    fill: white;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+line, polyline{
+    stroke: #005445;
+    stroke-width: 5px;
+}
+
+.popular{
+    font-size: 35px;
+}

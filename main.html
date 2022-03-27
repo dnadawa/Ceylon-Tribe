@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div style="background-color: red; width: 100%; height: 600px;" ></div>
+<!--    POPULAR DESTINATIONS-->
+    <div class="row">
+        <h1>Popular <span>Destinations</span></h1>
+        <div class="container animate fade" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
+            <div class="image">
+                <img src="images/img1.jpg" alt="destination image">
+                <div class="rating"><p>5.0</p></div>
+            </div>
+            <p class="title">Sigiriya</p>
+            <p class="location"><i class="fa fa-location-dot"></i> Anuradhapura</p>
+        </div>
+        <div class="container animate fade" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
+            <div class="image">
+                <img src="images/img2.jpg" alt="destination image">
+                <div class="rating"><p>5.0</p></div>
+            </div>
+            <p class="title">Sigiriya</p>
+            <p class="location"><i class="fa fa-location-dot"></i> Anuradhapura</p>
+        </div>
+        <div class="container animate fade" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
+            <div class="image">
+                <img src="images/img3.jpg" alt="destination image">
+                <div class="rating"><p>5.0</p></div>
+            </div>
+            <p class="title">Sigiriya</p>
+            <p class="location"><i class="fa fa-location-dot"></i> Anuradhapura</p>
+        </div>
+    </div>
+<!--    POPULAR DESTINATIONS END-->
+
+
+
+    <script src="https://kit.fontawesome.com/d17c53d695.js" crossorigin="anonymous"></script>
+    <script src="js/tilt.js"></script>
+    <script>
+        //https://alvarotrigo.com/blog/css-animations-scroll/
+        window.addEventListener("scroll", function(){
+            let reveals = document.querySelectorAll(".animate");
+
+            for (let i = 0; i < reveals.length; i++) {
+                let windowHeight = window.innerHeight;
+                let elementTop = reveals[i].getBoundingClientRect().top;
+                let elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

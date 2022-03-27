@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Destinations</title>
+
+    <link rel="stylesheet" href="css/destinations.css">
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#">Sigiriya</a></li>
+        <li><a href="#">Galle Fort</a></li>
+        <li><a id="s" href="#blue">Jaffna</a></li>
+        <li><a href="#">Yala</a></li>
+    </ul>
+    <div style="height: 500px; background-color: red;"></div>
+    <div id="blue" style="height: 500px; background-color: green;"></div>
+    <div style="height: 500px; background-color: blue;"></div>
+    <div style="height: 500px; background-color: aquamarine;"></div>
+    <a href="#" id="back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+    <script src="https://kit.fontawesome.com/d17c53d695.js" crossorigin="anonymous"></script>
+    <script>
+        window.addEventListener('scroll', function () {
+           if(window.scrollY > document.getElementById('blue').offsetTop -150 && window.scrollY < document.getElementById('blue').offsetTop+document.getElementById('blue').offsetHeight-150){
+               document.getElementById('s').classList.add('active');
+           }
+           else{
+               document.getElementById('s').classList.remove('active');
+           }
+        });
+    </script>
+</body>
+</html>
