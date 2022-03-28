@@ -1,0 +1,33 @@
+nav{
+    overflow: hidden;
+    background: #00816A;
+    line-height:30px;
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    z-index: 1;
+}
+nav .nav-item{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+nav .nav-item:hover{
+    background: #ddd;
+    color: brown;
+
+}
+nav .nav-item.active{
+    background: #53392A;
+    color: white;
+}
+
+nav img{
+    height: 58px;
+    float: left;
+}

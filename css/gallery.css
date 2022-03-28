@@ -1,0 +1,128 @@
+html, body{
+    margin: 0;
+    font-family: "Google Sans", sans-serif;
+    height: 100%;
+}
+
+#content{
+    height: 100%;
+}
+
+#large-image{
+    width: 40%;
+    height: 100%;
+    float: left;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(0.95, 0.95);
+}
+
+#large-image.animate{
+    opacity: 0.5;
+    transform: scale(0.9, 0.9);
+}
+
+#title1{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    font-size: 50px;
+    margin-right: 30px;
+    margin-left: 50px;
+    letter-spacing: 4px;
+    max-width: 35%;
+}
+
+#right-side{
+    width: 60%;
+    transition: all 1s ease;
+    height: 100%;
+    float: right;
+}
+
+.theme{
+    position: relative;
+    top: 20px;
+    margin-right: 30px;
+    background-color: rgba(00,00,255,0.4);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+}
+
+.theme:hover{
+    width: 300px;
+}
+
+.theme select{
+    display: none;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.theme label{
+    display: none;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#text-color:hover{
+    width: 240px;
+}
+
+.text{
+    clear: right;
+}
+
+#title2{
+    padding: 50px;
+    transition: color 0.3s ease-in;
+}
+
+#description{
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: justify;
+    padding: 0 50px;
+    transition: color 0.3s ease-in;
+}
+
+.thumbnail-row{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.thumbnail{
+    width: 120px;
+    height: 160px;
+    display: inline-block;
+    transition: all 0.2s ease;
+    border-radius: 20px;
+    margin: 10px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+input[type=radio]{
+    appearance: none;
+}
+
+input[type=radio] + img{
+    cursor: pointer;
+}
+
+[type=radio]:checked + img{
+    transform: scale(1.2, 1.2) !important;
+}

@@ -4,69 +4,106 @@
     <meta charset="UTF-8">
     <title>Gallery</title>
 
-    <link rel="stylesheet" href="css/gallery-styles.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
-    <img src="images/img1.jpg" id="large-image" alt="thumbnail preview">
-    <h1 id="title1"></h1>
-    <div class="right-side" id="right-side">
+    <!--NAVBAR-->
+    <nav style="position: static;">
+        <a href="#"><img src="images/img1.jpg" alt="logo"></a>
+        <a class="nav-item" href="#">Home</a>
+        <a class="nav-item" href="#">Popular Destinations</a>
+        <a class="nav-item" href="#">Products</a>
+        <a class="nav-item" href="#">Quiz</a>
+        <a class="nav-item" href="#">Query</a>
+        <a class="nav-item active" href="#">Gallery</a>
+        <a class="nav-item" href="#">About Us</a>
+    </nav>
+    <!--NAVBAR END-->
+    <div id="content">
+        <img src="images/img1.jpg" id="large-image" alt="thumbnail preview">
+        <h1 id="title1"></h1>
+        <div id="right-side">
 
-        <form name="colors">
-            <div class="theme" id="background-color">
-                <i class="fa fa-image"></i>
-                <label id="background-color-label" for="backgroundColor">Background Color</label>
-                <select name="backgroundColor" id="backgroundColor">
-                    <option value="#0000ff">Blue</option>
-                    <option value="#ff0000">Red</option>
-                </select>
-            </div>
-            <div class="theme text-color" id="text-color">
-                <i class="fa fa-font"></i>
-                <label id="text-color-label" for="textColor">Text Color</label>
-                <select name="textColor" id="textColor">
-                    <option value="#0000ff">Blue</option>
-                    <option value="#ff0000">Red</option>
-                </select>
-            </div>
-        </form>
-
-        <div class="text">
-            <h1 id="title2"></h1>
-            <p id="description"></p>
-        </div>
-<!--            https://yogeshchauhan.com/how-to-use-images-instead-of-html-radio-buttons-using-css/-->
-        <form name="thumbnails" class="thumbnail-row">
-                <label>
-                    <input type="radio" name="thumbnail" value="0" checked>
-                    <img src="images/img1.jpg" class="thumbnail" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
-                </label>
-
-                <label>
-                    <input type="radio" name="thumbnail" value="1">
-                    <img src="images/img2.jpg" class="thumbnail" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
-                </label>
-
-                <label>
-                    <input type="radio" name="thumbnail" value="2">
-                    <img src="images/img3.jpg" class="thumbnail" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
-                </label>
-
-                <label>
-                    <input type="radio" name="thumbnail" value="3">
-                    <img src="images/img4.jpg" class="thumbnail" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
-                </label>
-
-                <label>
-                    <input type="radio" name="thumbnail" value="4">
-                    <img src="images/img5.jpg" class="thumbnail" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
-                </label>
+            <form name="colors">
+                <div class="theme" id="background-color">
+                    <i class="fa fa-image"></i>
+                    <label id="background-color-label" for="background-color-dropdown">Background Color</label>
+                    <select name="backgroundColor" id="background-color-dropdown">
+                        <option value="#0000ff">Blue</option>
+                        <option value="#ff0000">Red</option>
+                    </select>
+                </div>
+                <div class="theme" id="text-color">
+                    <i class="fa fa-font"></i>
+                    <label id="text-color-label" for="text-color-dropdown">Text Color</label>
+                    <select name="textColor" id="text-color-dropdown">
+                        <option value="#0000ff">Blue</option>
+                        <option value="#ff0000">Red</option>
+                    </select>
+                </div>
             </form>
 
+            <div class="text">
+                <h1 id="title2"></h1>
+                <p id="description"></p>
+            </div>
+
+            <form name="thumbnails" class="thumbnail-row">
+                    <label> <!-- Source - https://yogeshchauhan.com/how-to-use-images-instead-of-html-radio-buttons-using-css/-->
+                        <input type="radio" name="thumbnail" value="0" checked>
+                        <img src="images/img1.jpg" class="thumbnail" alt="large-image" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
+                    </label>
+
+                    <label>
+                        <input type="radio" name="thumbnail" value="1">
+                        <img src="images/img2.jpg" class="thumbnail" alt="large-image" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
+                    </label>
+
+                    <label>
+                        <input type="radio" name="thumbnail" value="2">
+                        <img src="images/img3.jpg" class="thumbnail" alt="large-image" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
+                    </label>
+
+                    <label>
+                        <input type="radio" name="thumbnail" value="3">
+                        <img src="images/img4.jpg" class="thumbnail" alt="large-image" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
+                    </label>
+
+                    <label>
+                        <input type="radio" name="thumbnail" value="4">
+                        <img src="images/img5.jpg" class="thumbnail" alt="large-image" data-tilt data-tilt-reverse="true" data-tilt-scale="1.2">
+                    </label>
+                </form>
+
+        </div>
     </div>
+
+    <!--    FOOTER-->
+    <footer>
+        <img src="images/img1.jpg" alt="logo">
+        <div class="navigation">
+            <h1>Navigation</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Popular Destinations</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Quiz</a></li>
+                <li><a href="#">Query</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+        <a class="btn" href="#">Sitemap</a>
+    </footer>
+    <h3>Copyright &copy; 2022 Digiwrecks. All rights reserved.</h3>
+    <!--    FOOTER END-->
+
     <script src="js/tilt.js"></script>
     <script src="js/anime.min.js"></script>
-    <script src="js/gallery-script.js"></script>
+    <script src="js/gallery.js"></script>
     <script src="https://kit.fontawesome.com/d17c53d695.js" crossorigin="anonymous"></script>
 </body>
 

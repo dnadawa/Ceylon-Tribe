@@ -1,0 +1,303 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: "Google Sans", sans-serif;
+}
+
+/*ON PAGE NAV*/
+#on-page-nav ul{
+    margin: 0;
+    background-color: #00816A;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#on-page-nav li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#on-page-nav li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+#on-page-nav li a:after {
+    display:block;
+    content: '';
+    border-bottom: 3px #20BA9C solid;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+#on-page-nav li a:hover:after {
+    transform: scaleX(1);
+}
+
+#on-page-nav li a.active{
+    border-bottom: 3px #20BA9C solid;
+}
+
+.white-space{
+    height: 72px;
+}
+/*ON PAGE NAV END*/
+
+/*SIGIRIYA*/
+#sigiriya{
+    text-align: center;
+}
+#sigiriya-caption{
+    font-family: 'Mali', cursive;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding: 1% 0 1% 8%;
+    background-color: #53392A;
+    margin: 0 0 3% 0;
+}
+#sigiriya-title{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 45px;
+}
+#detail-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 8%;
+    filter: drop-shadow(2px 4px 21px rgba(0,0,0,0.25));
+}
+.small-card{
+    background-color: white;
+    border: 10px #223648 solid;
+    width: 15%;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+}
+#sigiriya .content{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #223648;
+    margin: 0;
+    padding: 10%;
+}
+#sigiriya .image{
+    margin: 5%;
+    color: #223648;
+    font-size: 40px;
+}
+#sigiriya #description{
+    background-color: #F5F5F5;
+    border-left: 20px rgba(0,236,185,0.3) solid;
+    filter: drop-shadow(2px 4px 21px rgba(0,0,0,0.25));
+    border-radius: 20px;
+    margin: 5% 8%;
+    padding: 1.5% 2%;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*SIGIRIYA END*/
+
+
+/*NINE ARCH*/
+.container{
+    background-color: #e2e2ec;
+    padding: 50px;
+}
+
+.title{
+    padding-left: 15px;
+    border-left: 3px #53392A solid;
+}
+
+.property-row{
+    width: 60%;
+    text-align: center;
+}
+
+.property{
+    background-color: #A66842;
+    width: 110px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin: 10px 15px 10px 0;
+    transition: all 0.3s ease;
+}
+
+.property:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    background-color: #53392A;
+}
+
+.value{
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.key{
+    margin: 0;
+    color: white;
+    font-size: 14px;
+}
+
+.location{
+    color: #797575;
+    font-size: 24px;
+    margin-left: 18px;
+}
+
+.location i, .property i{
+    margin-right: 8px;
+}
+
+.description{
+    color: #605b5b;
+    margin-top: 50px;
+    font-size: 20px;
+    max-width: 60%;
+    text-align: justify;
+    line-height: 28px;
+}
+/*NINE ARCH END*/
+
+/*YALA*/
+#yala{
+    background-image: url("../images/yala.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    padding-top: 20px;
+}
+
+.text-block {
+    background-color: #A66842;
+    color: white;
+    margin: 50px;
+    text-align: center;
+    padding: 40px;
+}
+
+.text-block h1{
+    font-size: 40px;
+}
+
+.text-block h3{
+    font-weight: normal;
+}
+
+.button {
+    background-color: #D6C3B3;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/*YALA END*/
+
+
+/*MIRISSA*/
+#mirissa{
+    text-align: center;
+}
+
+#mirissa img{
+    margin-top: 30px;
+    height: 300px;
+}
+
+#mirissa h2{
+    text-align: center;
+    color: white;
+    background-color:#00816A;
+    padding: 20px;
+    margin: 0;
+}
+
+#mirissa p {
+    font-size:20px ;
+    text-align: justify;
+    padding: 30px;
+    border: 2px #005445 solid;
+    margin: 30px;
+    border-radius: 30px;
+}
+/*MIRISSA END*/
+
+
+/*BACK TO TOP*/
+#back-to-top{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #20BA9C;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    display: none;
+}
+
+#back-to-top i{
+    color: white;
+    font-size: 20px;
+}
+
+#back-to-top:hover{
+    transform: scale(1.2,1.2);
+    height: 75px;
+}
+/*BACK TO TOP END*/
+
+
+/*ANIMATIONS*/
+.animate {
+    position: relative;
+    opacity: 0;
+}
+.active {
+    opacity: 1;
+}
+.active.fade {
+    animation: fade 0.8s ease;
+}
+
+@keyframes fade{
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/*ANIMATIONS END*/
