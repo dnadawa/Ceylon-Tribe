@@ -6,15 +6,14 @@ footer{
 }
 
 footer img{
-	width: 150px;
-	height: 150px;
+	width: 250px;
 	display: inline-block;
 	vertical-align: middle;
 }
 
 ul{
 	list-style-type: none;
-	text-align: left;
+	padding-left: 0;
 }
 
 ul a{
@@ -37,7 +36,6 @@ ul li{
 	display: inline-block;
 	vertical-align: middle;
 	width: 60%;
-	margin-left: 100px;
 }
 
 .btn{
