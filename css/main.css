@@ -231,6 +231,11 @@ body{
 /*  ------------------------- Reviews End -------------------------------- */
 
 
+/* override footer.css text align */
+#copyright{
+    text-align: center !important;
+}
+
 
 
 

@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 
-<body>
+<body id="body">
     <!--NAVBAR-->
-    <nav style="position: static;">
-        <a href="#"><img src="images/img1.jpg" alt="logo"></a>
-        <a class="nav-item" href="#">Home</a>
-        <a class="nav-item" href="#">Popular Destinations</a>
+    <nav>
+        <a href="main.html"><img src="images/logo.png" alt="logo" id="logo"></a>
+        <a class="nav-item" href="main.html">Home</a>
+        <a class="nav-item" href="popular-destinations.html">Popular Destinations</a>
         <a class="nav-item" href="#">Products</a>
         <a class="nav-item" href="#">Quiz</a>
         <a class="nav-item" href="#">Query</a>
-        <a class="nav-item active" href="#">Gallery</a>
+        <a class="nav-item active" href="gallery.html">Gallery</a>
         <a class="nav-item" href="#">About Us</a>
     </nav>
     <!--NAVBAR END-->
+
+    <h1 class="page-title">Gallery</h1>
     <div id="content">
         <img src="images/img1.jpg" id="large-image" alt="thumbnail preview">
         <h1 id="title1"></h1>
@@ -32,16 +35,18 @@
                     <i class="fa fa-image"></i>
                     <label id="background-color-label" for="background-color-dropdown">Background Color</label>
                     <select name="backgroundColor" id="background-color-dropdown">
-                        <option value="#0000ff">Blue</option>
-                        <option value="#ff0000">Red</option>
+                        <option value="#58ba83">Green</option>
+                        <option value="#7986cb">Blue</option>
+                        <option value="#78909c">Ash</option>
                     </select>
                 </div>
                 <div class="theme" id="text-color">
                     <i class="fa fa-font"></i>
                     <label id="text-color-label" for="text-color-dropdown">Text Color</label>
                     <select name="textColor" id="text-color-dropdown">
-                        <option value="#0000ff">Blue</option>
-                        <option value="#ff0000">Red</option>
+                        <option value="#757575">Grey</option>
+                        <option value="#00838f">Green</option>
+                        <option value="#53392A">Brown</option>
                     </select>
                 </div>
             </form>
@@ -83,22 +88,23 @@
 
     <!--    FOOTER-->
     <footer>
-        <img src="images/img1.jpg" alt="logo">
+        <img src="images/logo.png" alt="logo">
         <div class="navigation">
             <h1>Navigation</h1>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Popular Destinations</a></li>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="popular-destinations.html">Popular Destinations</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Quiz</a></li>
                 <li><a href="#">Query</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="#">About us</a></li>
             </ul>
         </div>
-        <a class="btn" href="#">Sitemap</a>
+        <a class="btn" href="sitemap.html">Sitemap</a>
+        <h3 id="copyright">Copyright &copy; 2022 Ceylon Tribe. All rights reserved. <span>Page developed by <a href="page-editor.html">Dulaj Nadawa</a></span></h3>
     </footer>
-    <h3>Copyright &copy; 2022 Digiwrecks. All rights reserved.</h3>
+
     <!--    FOOTER END-->
 
     <script src="js/tilt.js"></script>

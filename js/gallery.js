@@ -14,8 +14,7 @@ const images = [
         "description": "Galle Fort, situated on the southwest coast of Sri Lanka, was established first by the Portuguese in 1588," +
             " then heavily reinforced by the Dutch from 1649 onwards throughout the 17th century.<br><br>" +
             "The site was established as a World Heritage Site by UNESCO because of its unique exhibition of an urban" +
-            " ensemble that depicts the interplay of European architecture with South Asian traditions from the 16th to" +
-            " the 19th century, the fourth criterion for such designation."
+            " ensemble. "
     },
     {
         "image": "img3.jpg",
@@ -129,7 +128,7 @@ function getSelectedValue(selectList){
 }
 
 document.colors.backgroundColor.addEventListener('change', function () {
-    document.getElementById('right-side').style.backgroundColor = getSelectedValue(this);
+    document.getElementById('body').style.backgroundColor = getSelectedValue(this);
 });
 
 document.colors.textColor.addEventListener('change', function () {
