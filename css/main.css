@@ -223,7 +223,7 @@ body{
     height: 250px;
 }
 .checked {
-    color: orange;
+    color: #005445;
 }
 .card p{
     font-size: 10px;
