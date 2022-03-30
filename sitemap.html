@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <title>Sitemap</title>
 
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/sitemap.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
+<!--NAVBAR-->
+    <nav>
+        <a href="main.html"><img src="images/logo.png" alt="logo" id="logo"></a>
+        <a class="nav-item" href="main.html">Home</a>
+        <a class="nav-item" href="popular-destinations.html">Popular Destinations</a>
+        <a class="nav-item" href="#">Products</a>
+        <a class="nav-item" href="#">Quiz</a>
+        <a class="nav-item" href="#">Query</a>
+        <a class="nav-item" href="gallery.html">Gallery</a>
+        <a class="nav-item" href="#">About Us</a>
+    </nav>
+<!--NAVBAR END-->
+
+    <div class="space"></div>
     <h1 class="title">SITEMAP</h1>
     <svg viewBox="0 0 1920 1070" fill="none">
         <g id="presentation">
@@ -83,7 +100,7 @@
             <line x1="260" y1="800" x2="260" y2="875"></line>
             <polyline points="245 855, 260 870, 275 855"/>
         </g>
-        <g>
+        <g id="loshani">
             <rect x="135" y="875" width="250" height="150" rx="20"/>
             <text x="260" y="927" class="popular">Page Editor</text>
             <text x="260" y="973" class="popular">(Loshani)</text>
@@ -97,7 +114,7 @@
             <line class="sanjula-lines" x1="1735" y1="725" x2="1735" y2="800"></line>
             <line class="sanjula-lines" x1="1735" y1="800" x2="805" y2="800"></line>
         </g>
-        <g>
+        <g id="sanjula">
             <rect x="680" y="875" width="250" height="150" rx="20"/>
             <text x="805" y="927" class="popular">Page Editor</text>
             <text x="805" y="973" class="popular">(Sanjula)</text>
@@ -108,7 +125,7 @@
             <line x1="1115" y1="725" x2="1115" y2="875"></line>
             <polyline points="1100 855, 1115 870, 1130 855"/>
         </g>
-        <g>
+        <g id="ashiru">
             <rect x="990" y="875" width="250" height="150" rx="20"/>
             <text x="1115" y="927" class="popular">Page Editor</text>
             <text x="1115" y="973" class="popular">(Ashiru)</text>
@@ -129,7 +146,25 @@
     </svg>
 
 
-    <p class="developer">Page developed by <a href="page-editor.html">Dulaj Nadawa</a></p>
+    <!--    FOOTER-->
+    <footer>
+        <img src="images/logo.png" alt="logo">
+        <div class="navigation">
+            <h1>Navigation</h1>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="popular-destinations.html">Popular Destinations</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Quiz</a></li>
+                <li><a href="#">Query</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+        <a class="btn" href="sitemap.html">Sitemap</a>
+        <h3 id="copyright">Copyright &copy; 2022 Ceylon Tribe. All rights reserved. <span>Page developed by <a href="page-editor.html">Dulaj Nadawa</a></span></h3>
+    </footer>
+    <!--    FOOTER END-->
 
     <script src="js/sitemap.js"></script>
 </body>

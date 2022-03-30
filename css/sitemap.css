@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
-    background-color: #20BA9C;
+    background-image: url("../images/sitemap-back.png");
+    background-size: cover;
     text-align: center;
     font-family: "Google Sans", sans-serif;
 }
@@ -8,9 +9,16 @@ html, body{
 .title{
     letter-spacing: 3px;
     padding: 20px;
-    border-radius: 20px;
-    background-color: white;
-    margin: 10px;
+    background-color: #53392A;
+    color: white;
+    border-right: 10px #A66842 solid;
+    border-left: 10px #A66842 solid;
+    margin: 20px auto 10px auto;
+    width: 30%;
+}
+
+.space{
+    height: 58px;
 }
 
 svg{
@@ -23,7 +31,7 @@ svg{
 }
 
 rect{
-    fill: #00816A;
+    fill: #3B4F4F;
     transition: all 200ms ease;
     stroke: #005445;
     stroke-width: 5px;
@@ -53,19 +61,4 @@ line, polyline{
 
 .sanjula-lines{
     stroke: #A66842;
-}
-
-.developer{
-    color: white;
-    font-size: 18px;
-}
-
-.developer a{
-    color: #005445;
-    font-weight: bold;
-    transition: all 0.3s ease;
-}
-
-.developer a:hover{
-    color: #00816A;
 }
