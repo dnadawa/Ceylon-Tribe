@@ -15,12 +15,16 @@ nav{
 }
 
 .page-title{
-    font-size: 40px;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    background-color: #A4F4DB;
     padding: 20px;
+    background-color: #53392A;
     text-align: center;
-    margin: 0;
+    color: white;
+    border-right: 10px #A66842 solid;
+    border-left: 10px #A66842 solid;
+    margin: 20px auto 10px auto;
+    width: 30%;
 }
 
 #content{
