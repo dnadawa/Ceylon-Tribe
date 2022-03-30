@@ -21,3 +21,7 @@ for(let i=0;i<destinations.length;i++){
         window.location.href = "popular-destinations.html";
     });
 }
+
+document.getElementById('quiz-button').addEventListener('click',function () {
+   window.location.href = "https://w1866974.users.ecs.westminster.ac.uk/quiz.html";
+});
