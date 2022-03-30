@@ -118,7 +118,8 @@ body{
 .container{
     background-color: #e2e2ec;
     padding: 50px;
-    /*background-image: url("../images/nine-arch.jpg");*/
+    background-image: url("../images/nine_arch_back.png");
+    background-size: cover;
 }
 
 .title{
@@ -189,6 +190,7 @@ body{
     background-position: center;
     height: 800px;
     padding-top: 20px;
+    margin: 10px 0;
 }
 
 .text-block {
