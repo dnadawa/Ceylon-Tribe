@@ -8,15 +8,17 @@ body{
 }
 
 /*ON PAGE NAV*/
-#on-page-nav ul{
-    margin: 0;
-    background-color: #00816A;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    position: fixed;
+#on-page-nav{
+    position: sticky;
     top: 0;
     z-index: 1;
+}
+
+#on-page-nav ul{
+    margin: 0;
+    background-color: #A4F4DB;
+    padding: 20px;
+    text-align: center;
 }
 
 #on-page-nav li{
@@ -27,7 +29,7 @@ body{
 #on-page-nav li a{
     font-size: 24px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #on-page-nav li a:after {
@@ -42,7 +44,7 @@ body{
     transform: scaleX(1);
 }
 
-#on-page-nav li a.active{
+#on-page-nav li a.link-active{
     border-bottom: 3px #20BA9C solid;
 }
 
@@ -283,10 +285,10 @@ body{
     position: relative;
     opacity: 0;
 }
-.active {
+.show {
     opacity: 1;
 }
-.active.fade {
+.show.fade {
     animation: fade 0.8s ease;
 }
 
@@ -301,3 +303,12 @@ body{
     }
 }
 /*ANIMATIONS END*/
+
+
+/* override footer.css */
+#copyright{
+    text-align: center !important;
+}
+nav{
+    position: relative !important;
+}

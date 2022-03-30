@@ -2,12 +2,12 @@ let section = document.getElementsByClassName('section');
 
 //set active nav item
 for(let i=0;i<section.length;i++) {
-    let navItem = document.getElementsByClassName('nav-item');
+    let navItem = document.getElementsByClassName('item');
     window.addEventListener('scroll', function () {
         if ((window.scrollY > section[i].offsetTop - 150) && (window.scrollY < section[i].offsetTop + section[i].offsetHeight - 150)) {
-            navItem[i].classList.add('active');
+            navItem[i].classList.add('link-active');
         } else {
-            navItem[i].classList.remove('active');
+            navItem[i].classList.remove('link-active');
         }
     });
 }
@@ -38,9 +38,9 @@ window.addEventListener("scroll", function(){
         let elementVisible = 150;
 
         if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add("active");
+            reveals[i].classList.add("show");
         } else {
-            reveals[i].classList.remove("active");
+            reveals[i].classList.remove("show");
         }
     }
 });
