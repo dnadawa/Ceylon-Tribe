@@ -118,6 +118,7 @@ body{
 .container{
     background-color: #e2e2ec;
     padding: 50px;
+    /*background-image: url("../images/nine-arch.jpg");*/
 }
 
 .title{

@@ -2,6 +2,8 @@ body{
     font-family: "Google Sans", sans-serif;
     margin: 0;
     letter-spacing: 2px;
+    background-image: url("../images/sitemap-back.png");
+    background-size: cover;
 }
 
 .personal{
@@ -31,6 +33,7 @@ body{
     padding: 30px;
     margin-bottom: 30px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    text-align: center;
 }
 
 .workload h1{
@@ -38,21 +41,29 @@ body{
     color: #005445;
 }
 
-dl{
-    font-size: 25px;
-    margin-left: 70px;
-}
-
-dt{
+.box{
+    background-color: #53392A;
+    width: 50%;
+    color: white;
     padding: 10px;
-    font-weight: bold;
-    color: #00816A;
+    border-right: 10px #A66842 solid;
+    border-left: 10px #A66842 solid;
+    margin: 0 auto 20px auto;
 }
 
-dd{
-    margin-left: 50px;
-    padding-bottom: 8px;
-    color: #A66842;
-    display: list-item;
-    list-style-type: disc;
+.box .main{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #A66842;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box p{
+    margin: 0;
+}
+
+.box div{
+    margin-top: 20px;
 }
