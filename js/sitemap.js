@@ -3,7 +3,7 @@ document.getElementById('presentation').addEventListener('click',function () {
 });
 
 document.getElementById('home').addEventListener('click',function () {
-   window.location.href = "main.html";
+   window.location.href = "index.html";
 });
 
 document.getElementById('products').addEventListener('click',function () {
