@@ -1,5 +1,5 @@
 document.getElementById('presentation').addEventListener('click',function () {
-   window.location.href = "../main.html";
+   window.location.href = "index.html";
 });
 
 document.getElementById('home').addEventListener('click',function () {
@@ -7,15 +7,15 @@ document.getElementById('home').addEventListener('click',function () {
 });
 
 document.getElementById('products').addEventListener('click',function () {
-   window.location.href = "https://w1866986.users.ecs.westminster.ac.uk/products.html";
+   window.location.href = "products.html";
 });
 
 document.getElementById('quiz').addEventListener('click',function () {
-   window.location.href = "https://w1866974.users.ecs.westminster.ac.uk/quiz.html";
+   window.location.href = "quiz.html";
 });
 
 document.getElementById('query').addEventListener('click',function () {
-   window.location.href = "https://w1867419.users.ecs.westminster.ac.uk/query.html";
+   window.location.href = "query.html";
 });
 
 document.getElementById('gallery').addEventListener('click',function () {
@@ -23,7 +23,7 @@ document.getElementById('gallery').addEventListener('click',function () {
 });
 
 document.getElementById('about-us').addEventListener('click',function () {
-   window.location.href = "https://w1866974.users.ecs.westminster.ac.uk/about.html";
+   window.location.href = "about.html";
 });
 
 document.getElementById('popular').addEventListener('click',function () {
@@ -31,17 +31,17 @@ document.getElementById('popular').addEventListener('click',function () {
 });
 
 document.getElementById('loshani').addEventListener('click',function () {
-   window.location.href = "../page-editor/dulaj.html";
+   window.location.href = "page-editor/loshani.html";
 });
 
 document.getElementById('sanjula').addEventListener('click',function () {
-   window.location.href = "../page-editor/dulaj.html";
+   window.location.href = "page-editor/sanjula.html";
 });
 
 document.getElementById('ashiru').addEventListener('click',function () {
-   window.location.href = "../page-editor/dulaj.html";
+   window.location.href = "page-editor/ashiru.html";
 });
 
 document.getElementById('dulaj').addEventListener('click',function () {
-   window.location.href = "dulaj.html";
+   window.location.href = "page-editor/dulaj.html";
 });
