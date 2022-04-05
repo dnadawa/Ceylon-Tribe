@@ -1,0 +1,79 @@
+body{
+    background-image: url("../images/page_editor_back.png");
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    margin: 60px auto;
+    filter: drop-shadow(2px 4px 21px rgba(0,0,0,0.25));
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: white;
+    background-color: #334956;
+    padding: 20px;
+    margin: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.content{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #eeeeee;
+    border-left: 15px rgba(0,236,185,0.3) solid;
+    border-right: 15px rgba(0,236,185,0.3) solid;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+}
+
+.content img{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.item{
+    background-color: white;
+    padding: 15px;
+    margin: 0 auto 20px auto;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 10px;
+    filter: drop-shadow(2px 4px 21px rgba(0,0,0,0.25));
+    border-left: 10px #53392A solid;
+    width: 80%;
+}
+
+.name-box{
+    width: 50%;
+    background-color: rgba(0,236,185,0.3);
+    filter: drop-shadow(2px 4px 21px rgba(0,0,0,0.25));
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 auto 50px auto;
+}
+
+.name-box h1{
+    width: 50%;
+    background-color:#00816A ;
+    color: white;
+    margin: 0;
+    padding: 30px;
+    font-size: 25px;
+    float: left;
+}
+
+.id{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    background-color: #E8EAEB;
+    padding: 20px;
+}
+.name{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+}

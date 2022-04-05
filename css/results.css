@@ -1,0 +1,67 @@
+#result-section{
+    display: none;
+}
+#result-card{
+    margin: 50px 100px;
+    background-color: white;
+    filter: drop-shadow(2px 4px 21px rgba(0,0,0,0.25));
+    border-radius: 10px;
+}
+.title-row {
+    display: flex;
+    justify-content: space-between;
+
+}
+#user-time,#marks{
+    background-color: #223648;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    padding: 23px;
+}
+#user-time{
+    border-top-left-radius: 10px;
+}
+#marks{
+    border-top-right-radius: 10px;
+}
+.title{
+    font-family: 'Raleway', sans-serif;
+    margin: 20px auto;
+}
+.question-card{
+    background-color: #F5F5F5;
+    margin: 5%;
+    border-radius: 12px;
+}
+h3{
+    background-color: white;
+    padding: 30px;
+    margin: 40px 8%;
+    border-radius: 12px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.answer-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8%;
+}
+.question-num{
+    background-color: #039487;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: inline-block;
+    border-top-left-radius: 12px;
+    padding: 1%;
+    margin-top: 0;
+}
+.answer{
+    background-color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    border-radius: 12px;
+    width: 150px;
+    padding: 1.5% 15%;
+    margin: 1% 0;
+}

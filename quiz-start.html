@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/quiz-start.css">
+    <link rel="stylesheet" href="css/results.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway:wght@600&family=Source+Sans+Pro:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d045e669a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="quiz-section">
+    <div id="time">
+        <p id="time-first">6</p>
+        <p id="time-second">0</p>
+    </div>
+
+    <div id="qna-card">
+        <div id="question-div">
+            <h1 id="question"></h1>
+        </div>
+        <form name="answers">
+
+            <div id="answer-row1">
+                <input type="radio" name="answer" id="answer_1" value="a1"/>
+                <label for="answer_1" id="a1"></label>
+
+                <input type="radio" name="answer" id="answer_2" value="a2"/>
+                <label for="answer_2" id="a2"></label>
+            </div>
+
+            <div id="answer-row2">
+                <input type="radio" name="answer" id="answer_3" value="a3"/>
+                <label for="answer_3" id="a3"></label>
+
+                <input type="radio" name="answer" id="answer_4" value="a4"/>
+                <label for="answer_4" id="a4"></label>
+            </div>
+
+        </form>
+    </div>
+
+    <button onclick="nextQuestion()" id="button-next">Next Question <i id="btn-icon" class="fa-solid fa-square-caret-right"></i></button>
+</div>
+
+<div id="result-section">
+    <div id="result-card">
+
+        <div class="title-row">
+            <p id="user-time">
+            </p>
+            <h1 class="title">
+                Result
+            </h1>
+            <p id="marks">
+            </p>
+        </div>
+
+        <div class="question-card">
+            <p class="question-num">
+            </p>
+            <h3 class="result-question">
+            </h3>
+            <div class="answer-row">
+                <p class="answer result-a1">
+                </p>
+                <p class="answer result-a2">
+                </p>
+            </div>
+            <div class="answer-row">
+                <p class="answer result-a3">
+                </p>
+                <p class="answer result-a4">
+                </p>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div class="question-card">
+            <p class="question-num">
+            </p>
+            <h3 class="result-question">
+            </h3>
+            <div class="answer-row">
+                <p class="answer result-a1">
+                </p>
+                <p class="answer result-a2">
+                </p>
+            </div>
+            <div class="answer-row">
+                <p class="answer result-a3">
+                </p>
+                <p class="answer result-a4">
+                </p>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div class="question-card">
+            <p class="question-num">
+            </p>
+            <h3 class="result-question">
+            </h3>
+            <div class="answer-row">
+                <p class="answer result-a1">
+                </p>
+                <p class="answer result-a2">
+                </p>
+            </div>
+            <div class="answer-row">
+                <p class="answer result-a3">
+                </p>
+                <p class="answer result-a4">
+                </p>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div class="question-card">
+            <p class="question-num">
+            </p>
+            <h3 class="result-question">
+            </h3>
+            <div class="answer-row">
+                <p class="answer result-a1">
+                </p>
+                <p class="answer result-a2">
+                </p>
+            </div>
+            <div class="answer-row">
+                <p class="answer result-a3">
+                </p>
+                <p class="answer result-a4">
+                </p>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div class="question-card">
+            <p class="question-num">
+            </p>
+            <h3 class="result-question">
+            </h3>
+            <div class="answer-row">
+                <p class="answer result-a1">
+                </p>
+                <p class="answer result-a2">
+                </p>
+            </div>
+            <div class="answer-row">
+                <p class="answer result-a3">
+                </p>
+                <p class="answer result-a4">
+                </p>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div class="question-card">
+            <p class="question-num">
+            </p>
+            <h3 class="result-question">
+            </h3>
+            <div class="answer-row">
+                <p class="answer result-a1">
+                </p>
+                <p class="answer result-a2">
+                </p>
+            </div>
+            <div class="answer-row">
+                <p class="answer result-a3">
+                </p>
+                <p class="answer result-a4">
+                </p>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div class="question-card">
+            <p class="question-num">
+            </p>
+            <h3 class="result-question">
+            </h3>
+            <div class="answer-row">
+                <p class="answer result-a1">
+                </p>
+                <p class="answer result-a2">
+                </p>
+            </div>
+            <div class="answer-row">
+                <p class="answer result-a3">
+                </p>
+                <p class="answer result-a4">
+                </p>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div class="question-card">
+            <p class="question-num">
+            </p>
+            <h3 class="result-question">
+            </h3>
+            <div class="answer-row">
+                <p class="answer result-a1">
+                </p>
+                <p class="answer result-a2">
+                </p>
+            </div>
+            <div class="answer-row">
+                <p class="answer result-a3">
+                </p>
+                <p class="answer result-a4">
+                </p>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div class="question-card">
+            <p class="question-num">
+            </p>
+            <h3 class="result-question">
+            </h3>
+            <div class="answer-row">
+                <p class="answer result-a1">
+                </p>
+                <p class="answer result-a2">
+                </p>
+            </div>
+            <div class="answer-row">
+                <p class="answer result-a3">
+                </p>
+                <p class="answer result-a4">
+                </p>
+            </div>
+            <br>
+            <br>
+        </div>
+
+        <div class="question-card">
+            <p class="question-num">
+            </p>
+            <h3 class="result-question">
+            </h3>
+            <div class="answer-row">
+                <p class="answer result-a1">
+                </p>
+                <p class="answer result-a2">
+                </p>
+            </div>
+            <div class="answer-row">
+                <p class="answer result-a3">
+                </p>
+                <p class="answer result-a4">
+                </p>
+            </div>
+            <br>
+            <br>
+        </div>
+        <br>
+        <div id="button-section">
+            <button id="button-homepage">Go to Homepage <i class="fa-solid fa-house"></i></button>
+        </div>
+        <br>
+        <br>
+    </div>
+</div>
+<script src="js/quiz-start.js"></script>
+</body>
+</html>

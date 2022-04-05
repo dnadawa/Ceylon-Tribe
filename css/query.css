@@ -1,0 +1,108 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #A66842;
+    font-size: 50px;
+    margin: 0;
+}
+
+.Query_Form {
+    text-align: center;
+    margin: auto;
+    border: 2px solid darkred;
+    padding: 40px;
+}
+
+body {
+    justify-content: left;
+    align-items: left;
+    background-size: cover;
+    margin: 0;
+    background: url("images.jpg");
+}
+
+.rapper {
+    background-color: #D6C3B3;
+}
+
+.main {
+    align-items: center;
+    font-size: 0px;
+    margin: 40px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.subject {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.details {
+    font-family: sans-serif;
+}
+
+.Name {
+    position: relative;
+    left: 400px;
+}
+
+.view {
+    background-color: #53392A;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: #53392A;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.send {
+    background-color: #53392A;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.sdetails {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sdetailsbox {
+    background-color: antiquewhite;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

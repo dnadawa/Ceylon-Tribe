@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/newbuy.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<title>
+		buyproduct
+	</title>
+</head>
+<body>
+	<!--NAVBAR-->
+	<nav>
+		<a href="main.html"><img src="images/logo.png" alt="logo" id="logo"></a>
+		<a class="nav-item" href="main.html">Home</a>
+		<a class="nav-item" href="popular-destinations.html">Popular Destinations</a>
+		<a class="nav-item active" href="products.html">Products</a>
+		<a class="nav-item" href="quiz.html">Quiz</a>
+		<a class="nav-item" href="query.html">Query</a>
+		<a class="nav-item" href="gallery.html">Gallery</a>
+		<a class="nav-item" href="about.html">About Us</a>
+	</nav>
+<!--NAVBAR END-->
+	<div class="space"></div>
+    <h1 class="h1" ><img src="images/buyimg/buy19.png" height="40px" alt="product">  | SHOP <i class='fas fa-shopping-cart' style='font-size:24px' ></i></h1>
+   
+    
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <img src="images/buyimg/buy9.png" style="width:1050px" alt="product" height="350px">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="images/buyimg/buy8.png" style="width:1050px" alt="product" height="350px">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="images/buyimg/buy7.png" style="width:1050px " alt="product" height="350px">
+		</div>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	</div>
+
+	
+
+    <div class="row">
+  		<div class="column1" style="background-color:#d9f2d9;">
+  			<video width="410" height="560"   controls muted autoplay>
+				   <source src="images/buyimg/buy123.mp4" type="video/mp4">
+				   Your browser does not support the video tag.
+				</video>
+  			<form name="MyForm" onsubmit="return validateForm()">
+  		<h1 class="Customer" >Customer details </h1>
+  		<!-- Form -->
+		<div id="details" >
+			<label for="fname">Name</label>
+			<div class="input_padding">
+				<input type="text" name="fullname" id="name" size="50" class="button"> 
+			</div>
+			<label for="mail">Email address</label>
+			<div class="input_padding">
+				<input type="text" name="Email" id="email" size="40" class="button">  
+			</div>
+			<label for="address"> Address &emsp; &emsp; &ensp;</label>
+			<div class="input_padding">
+				<input type="text" name="Address" id="address" size="40" class="button">
+			</div>
+			<label for="creditcard"> Credit card No &ensp;</label>
+			<div class="input_padding">
+				<input type="tel" id="Cnumber" class="button">			   	
+			</div>
+			<label for="telephone"> Mobile No &emsp; &emsp;</label>
+			<div class="input_padding">
+				<input type="tel" id="Mnumber" class="button">			   
+			</div>
+		</div>
+
+		<div>
+		   <table align="center">
+		   		<tr>
+					<td><input type="submit" value="Place Your Order" class="formbuttons"></td>
+					<td><input type="reset" value="Reset" class="formbuttons"></td>
+				</tr>	   
+		   </table>
+		  	
+		</div>
+  		</div>
+
+  		
+
+  		<div class="column2" style="background-color:#00816A;">
+  			<div class="column">
+    			<div class="card">
+      			<img src="images/buyimg/buy11.jpg" class="img" alt="keytag"  >
+      			<h3>Sri lanakan handmade keytag</h3>
+      			<p class="price">$8</p>
+      			<p><label for="quantity">Quantity: </label><input class="qn_button" type="number" id="product1" name="PQuantity" min=0></p>
+      			<p><button onclick="shopedProduct1();" id="0" name="addToCart">Add to Cart</button></p>
+    			</div>
+   			</div>
+			<div class="column">  
+    			<div class="card">
+      			<img src="images/buyimg/buy9.jpg" class="img" alt="shield"  >
+     			<h3>Handmade wooden<br> shield</h3>
+      			<p class="price">$19</p>
+      			<p><label for="quantity">Quantity: </label><input class="qn_button" type="number" id="product2" name="PQuantity" min=0></p>
+      			<p><button onclick="shopedProduct2();" id="1" name="addToCart">Add to Cart</button></p>
+    			</div>
+  			</div>
+  			<div class="column">  
+    			<div class="card">
+      			<img src="images/buyimg/buy12.jpg" alt="mask" class="img" >
+      			<h3>Wooden queen koalam mask </h3>
+      			<p class="price">$30</p>
+     			<p><label for="quantity">Quantity: </label><input class="qn_button" type="number" id="product3" name="PQuantity" min=0></p>
+      			<p><button onclick="shopedProduct3();" id="2" name="addToCart">Add to Cart</button></p>
+    			</div>
+   			</div>
+   			   	<div class="column">  
+    			<div class="card">
+      			<img src="images/buyimg/buy16.jpg" alt="mask"  class="img">
+      			<h3>Sri lankan traditional<br> mask</h3>
+      			<p class="price">$60</p>
+     			<p><label for="quantity">Quantity: </label><input class="qn_button" type="number" id="product4" name="PQuantity" min=0></p>
+      			<p><button onclick="shopedProduct4();" id="3" name="addToCart">Add to Cart</button></p>
+    			</div>
+  		 	</div>
+  		 		<div class="column">  
+    			<div class="card">
+      			<img src="images/buyimg/buy6.jpg" alt="glass"  class="img">
+      			<h3>Coconut shell wine glasses on wooden base mask</h3>
+      			<p class="price">$20</p>
+     			<p><label for="quantity">Quantity: </label><input class="qn_button" type="number" id="product5" name="PQuantity" min=0></p>
+      			<p><button onclick="shopedProduct5();" id="4" name="addToCart">Add to Cart</button></p>
+    			</div>
+  		 	</div>
+  		 		<div class="column">  
+    			<div class="card">
+      			<img src="images/buyimg/buy10.jpg" alt="mask"  class="img">
+      			<h3>Wooden brahmin Face mask mask</h3>
+      			<p class="price">$70</p>
+     			<p><label for="quantity">Quantity: </label><input class="qn_button" type="number" id="product6" name="PQuantity" min=0></p>
+      			<p><button onclick="shopedProduct6();" id="5" name="addToCart">Add to Cart</button></p>
+    			</div>
+  		 	</div>
+
+  		</div>
+  	</form>
+
+  		</div>
+  	</div>
+<footer>
+        <img src="images/logo.png" alt="logo">
+		<div class="navigation">
+			<h1>Navigation</h1>
+			<ul>
+				<li><a href="main.html">Home</a></li>
+				<li><a href="popular-destinations.html">Popular Destinations</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="query.html">Query</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About us</a></li>
+			</ul>
+		</div>
+        <a class="btn" href="sitemap.html">Sitemap</a>
+        <h3 id="copyright">Copyright &copy; 2022 Ceylon Tribe. All rights reserved. <span>Page developed by <a href="page-editor/loshani.html">Loshini Jyawardhane</a></span></h3>
+    </footer>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+
+	var price1;
+	var price2;
+	var price3;
+	var price4;
+	var price5;
+	var price6;
+	var quantityArray =[];
+	var productArray =[];
+	var priceArray =[];
+	var alertMessage =[];
+
+
+function shopedProduct1(){
+	price1=document.getElementById('product1').value*8;	
+	window.alert(document.getElementById('product1').value+"Elephant keytag is added to your cart. $"+price1);
+	quantityArray.push(document.getElementById('product1').value);
+	productArray.push("Elephant keytag");
+	priceArray.push(price1);
+	
+}
+
+function shopedProduct2(){
+	price2=document.getElementById('product2').value*19;	
+	window.alert(document.getElementById('product2').value+" Handmade wooden shield is added to your cart. $"+price2);
+	quantityArray.push(document.getElementById('product2').value);
+	productArray.push("Handmade wooden shield");
+	priceArray.push(price2);
+}
+
+function shopedProduct3(){
+	price3=document.getElementById('product3').value*30;	
+	window.alert(document.getElementById('product3').value+" Wooden queen loalam mask is added to your cart. $"+price3);
+	quantityArray.push(document.getElementById('product3').value);
+	productArray.push("Wooden queen loalam mask");
+	priceArray.push(price3);
+}
+
+function shopedProduct4(){
+	price4=document.getElementById('product4').value*60;	
+	window.alert(document.getElementById('product4').value+" Sri lankan traditional mask is added to your cart. $"+price4);
+	quantityArray.push(document.getElementById('product4').value);
+	productArray.push("Sri lankan traditional mask");
+	priceArray.push(price4);
+}
+
+function shopedProduct5(){
+	price5=document.getElementById('product5').value*20;	
+	window.alert(document.getElementById('product5').value+" Coconut shell wine glass is added to your cart. $"+price5);
+	quantityArray.push(document.getElementById('product5').value);
+	productArray.push("Coconut shell wine glass");
+	priceArray.push(price5);
+}
+
+function shopedProduct6(){
+	price6=document.getElementById('product6').value*70;	
+	window.alert(document.getElementById('product6').value+" Wooden brahmin mask is added to your cart. $"+price6);
+	quantityArray.push(document.getElementById('product6').value);
+	productArray.push(" Wooden brahmin mask");
+	priceArray.push(price6);
+}
+
+
+function validateForm(){
+	var name = document.getElementById("name").value;
+	var email = document.getElementById("email").value;
+	var address = document.getElementById("address").value;
+	var credit = document.getElementById("Cnumber").value;
+	var mobile = document.getElementById("Mnumber").value;
+	var mailformat = /^[a-zA-Z0-9.!#$%&'+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)$/;
+	
+	if(name.length < 3){
+		alert("Name must be filled out");
+		return false;
+	}
+	
+	
+	if(!email.match(mailformat)){
+		alert("Email must be filled out");
+		return false;
+	}
+	
+	
+	if(address==""){
+		alert("Address must be filled out");
+		return false;
+	}
+
+	if(credit==""){
+		alert("Credit card number must be filled out");
+		return false;
+	}
+
+	if(mobile.length < 9){
+		alert("Mobile Number must be filled out");
+		return false;
+	}
+
+	var totalPrice=0;
+	var i;
+	for(i = 0; i < productArray.length; i++){
+		var tempString = quantityArray[i] + " x " + productArray[i] + " - $ " + priceArray[i];
+		alertMessage.push(tempString);
+		totalPrice += priceArray[i];
+	}
+
+	
+	
+	window.alert("Customer name : "+document.getElementById('name').value + "\n\nYour order summary : \n" + alertMessage.join("\n") + "\nYour total is  $" + totalPrice.toString() + "\nThank you for shopping with us.\nYour products will be delivered within 28 days.")
+}
+</script>  
+
+</body>
+</html>

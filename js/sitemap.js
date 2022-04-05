@@ -1,9 +1,9 @@
 document.getElementById('presentation').addEventListener('click',function () {
-   window.location.href = "https://w1866986.users.ecs.westminster.ac.uk/index.html";
+   window.location.href = "../main.html";
 });
 
 document.getElementById('home').addEventListener('click',function () {
-   window.location.href = "index.html";
+   window.location.href = "main.html";
 });
 
 document.getElementById('products').addEventListener('click',function () {
@@ -31,17 +31,17 @@ document.getElementById('popular').addEventListener('click',function () {
 });
 
 document.getElementById('loshani').addEventListener('click',function () {
-   window.location.href = "https://w1866986.users.ecs.westminster.ac.uk/page-editor.html";
+   window.location.href = "../page-editor/dulaj.html";
 });
 
 document.getElementById('sanjula').addEventListener('click',function () {
-   window.location.href = "https://w1866974.users.ecs.westminster.ac.uk/page-editor.html";
+   window.location.href = "../page-editor/dulaj.html";
 });
 
 document.getElementById('ashiru').addEventListener('click',function () {
-   window.location.href = "https://w1867419.users.ecs.westminster.ac.uk/page-editor.html";
+   window.location.href = "../page-editor/dulaj.html";
 });
 
 document.getElementById('dulaj').addEventListener('click',function () {
-   window.location.href = "page-editor.html";
+   window.location.href = "dulaj.html";
 });

@@ -1,0 +1,315 @@
+body{
+    text-align: center;
+    background-image: url("../images/student_back.png");
+    margin: 0;
+    font-family: "Google Sans", sans-serif;
+}
+
+#sized-box{
+    height: 80px;
+}
+
+#title-section{
+    text-align: center;
+    display: inline-block;
+    filter: drop-shadow(2px 4px 21px rgba(0,0,0,0.25));
+    margin:  auto;
+    width: 50%;
+    background-color: #53392A;
+    border-radius: 10px 0px 10px 0px;
+}
+#title{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 1% 1%;
+    padding: 3% 3%;
+    border-left: 15px white solid;
+    border-top-left-radius: 5px;
+    border-right: 15px white solid;
+    border-bottom-right-radius: 5px;
+}
+
+.parent{
+    margin: 3% 2% 5% 2%;
+    width: 300px;
+    filter: drop-shadow(2px 4px 21px rgba(0,0,0,0.25));
+    display: inline-block;
+}
+
+.top-card img{
+    width: 300px;
+    height: 228px;
+    object-fit: contain;
+}
+
+.top-card{
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 6px rgba(0, 236, 185, 0.3) solid;
+    position: relative;
+    z-index: 1;
+    background-color: #EEEEEE;
+    width: 300px;
+    height: 240px;
+    transform: translateY(120px);
+    transition: all 1s ease-in-out;
+}
+
+.bottom-card{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 6px #58BA83 solid;
+    position: relative;
+    z-index: -1;
+    background-color: #00816A;
+    width: 300px;
+    height: 240px;
+    transform: translateY(-120px);
+    transition: all 1s ease-in-out;
+}
+#st1-name-details .profile-icon{
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    color: white;
+}
+#st1-name-details .name{
+    font-family: 'Exo 2', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 0;
+    background-color: white;
+    border: 5px #00816A solid;
+    border-radius: 10px;
+}
+#st1-name-details{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#st1-name-details .outer-card{
+    width: 170px;
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+#st1-role-details .name{
+    font-family: 'Exo 2', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 36px;
+    margin: 0;
+    background-color: white;
+    border: 5px #00816A solid;
+    border-radius: 10px;
+}
+#st1-role-details .profile-icon{
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    color: white;
+}
+#st1-role-details{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#st1-role-details .outer-card{
+    width: 170px;
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+#st2-name-details .profile-icon{
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    color: white;
+}
+#st2-name-details .name{
+    font-family: 'Exo 2', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 0;
+    background-color: white;
+    border: 5px #00816A solid;
+    border-radius: 10px;
+}
+#st2-name-details{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#st2-name-details .outer-card{
+    width: 170px;
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+#st2-role-details .name{
+    font-family: 'Exo 2', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 35px;
+    margin: 0;
+    background-color: white;
+    border: 5px #00816A solid;
+    border-radius: 10px;
+}
+#st2-role-details .profile-icon{
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    color: white;
+}
+#st2-role-details{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#st2-role-details .outer-card{
+    width: 170px;
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+#st3-name-details .profile-icon{
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    color: white;
+}
+#st3-name-details .name{
+    font-family: 'Exo 2', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 0;
+    background-color: white;
+    border: 5px #00816A solid;
+    border-radius: 10px;
+}
+#st3-name-details{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#st3-name-details .outer-card{
+    width: 170px;
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+#st3-role-details .name{
+    font-family: 'Exo 2', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 35px;
+    margin: 0;
+    background-color: white;
+    border: 5px #00816A solid;
+    border-radius: 10px;
+}
+#st3-role-details .profile-icon{
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    color: white;
+}
+#st3-role-details{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#st3-role-details .outer-card{
+    width: 170px;
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+#st4-name-details .profile-icon{
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    color: white;
+}
+#st4-name-details .name{
+    font-family: 'Exo 2', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 17px;
+    margin: 0;
+    background-color: white;
+    border: 5px #00816A solid;
+    border-radius: 10px;
+}
+#st4-name-details{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#st4-name-details .outer-card{
+    width: 170px;
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+#st4-role-details .name{
+    font-family: 'Exo 2', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 34px;
+    margin: 0;
+    background-color: white;
+    border: 5px #00816A solid;
+    border-radius: 10px;
+}
+#st4-role-details .profile-icon{
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    color: white;
+}
+#st4-role-details{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#st4-role-details .outer-card{
+    width: 170px;
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+nav{
+    z-index: 5 !important;
+}

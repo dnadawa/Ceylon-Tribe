@@ -1,0 +1,57 @@
+html, body{
+  /*background-color: #005445;*/
+  font-family: "Google Sans", "sans-serif";
+  text-align: center;
+  color: white;
+  margin: 0;
+  height: 100%;
+  /*background-color: #00816A;
+  /*background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);*/
+}
+
+.container {
+  height: 60%;
+  background-image: url('../images/presentation/world1.jpg');
+  background-position: bottom;
+}
+
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 70px;
+  background-color: rgba(0,84,69, 0.8);
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+
+.column {
+  width: 20%;
+  padding: 0 20px;
+  display: inline-block;
+  color: white;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 50px auto;}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  padding: 30px;
+  text-align: center;
+  background-color: #20ba9c;
+}
+
+.card h3{
+  font-size: 25px;
+}
+
+.card p{
+  font-size: 18px;
+}
