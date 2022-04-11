@@ -23,5 +23,5 @@ for(let i=0;i<destinations.length;i++){
 }
 
 document.getElementById('quiz-button').addEventListener('click',function () {
-   window.location.href = "https://w1866974.users.ecs.westminster.ac.uk/quiz.html";
+   window.location.href = "quiz.html";
 });
